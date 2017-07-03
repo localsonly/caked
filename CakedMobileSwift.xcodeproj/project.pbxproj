@@ -12,6 +12,9 @@
 		304655001F09BC5500C4309F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304654FE1F09BC5500C4309F /* Main.storyboard */; };
 		304655021F09BC5500C4309F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304655011F09BC5500C4309F /* Assets.xcassets */; };
 		304655051F09BC5500C4309F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304655031F09BC5500C4309F /* LaunchScreen.storyboard */; };
+		3046550D1F09D4F300C4309F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046550C1F09D4F300C4309F /* Models.swift */; };
+		3046550F1F09E61500C4309F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3046550E1F09E61500C4309F /* GoogleService-Info.plist */; };
+		8492167F3F0234390A5BDD19 /* Pods_CakedMobileSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4612799B215BA110A421DD57 /* Pods_CakedMobileSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,11 @@
 		304655011F09BC5500C4309F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		304655041F09BC5500C4309F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		304655061F09BC5500C4309F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3046550C1F09D4F300C4309F /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3046550E1F09E61500C4309F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4612799B215BA110A421DD57 /* Pods_CakedMobileSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakedMobileSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C974232F5E3B4FD69062F4B /* Pods-CakedMobileSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakedMobileSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CakedMobileSwift/Pods-CakedMobileSwift.release.xcconfig"; sourceTree = "<group>"; };
+		53FD72E014E813E2BE92B2A9 /* Pods-CakedMobileSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakedMobileSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CakedMobileSwift/Pods-CakedMobileSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8492167F3F0234390A5BDD19 /* Pods_CakedMobileSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2144A15416F462F7C53CCF1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4612799B215BA110A421DD57 /* Pods_CakedMobileSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		304654EE1F09BC5500C4309F = {
 			isa = PBXGroup;
 			children = (
 				304654F91F09BC5500C4309F /* CakedMobileSwift */,
 				304654F81F09BC5500C4309F /* Products */,
+				FCFA87F8F33810FEA7AB9AF6 /* Pods */,
+				2144A15416F462F7C53CCF1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,25 @@
 		304654F91F09BC5500C4309F /* CakedMobileSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3046550E1F09E61500C4309F /* GoogleService-Info.plist */,
 				304654FA1F09BC5500C4309F /* AppDelegate.swift */,
 				304654FC1F09BC5500C4309F /* ViewController.swift */,
 				304654FE1F09BC5500C4309F /* Main.storyboard */,
 				304655011F09BC5500C4309F /* Assets.xcassets */,
 				304655031F09BC5500C4309F /* LaunchScreen.storyboard */,
 				304655061F09BC5500C4309F /* Info.plist */,
+				3046550C1F09D4F300C4309F /* Models.swift */,
 			);
 			path = CakedMobileSwift;
+			sourceTree = "<group>";
+		};
+		FCFA87F8F33810FEA7AB9AF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53FD72E014E813E2BE92B2A9 /* Pods-CakedMobileSwift.debug.xcconfig */,
+				4C974232F5E3B4FD69062F4B /* Pods-CakedMobileSwift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 304655091F09BC5500C4309F /* Build configuration list for PBXNativeTarget "CakedMobileSwift" */;
 			buildPhases = (
+				B2D5ECF60213F08370EAE422 /* [CP] Check Pods Manifest.lock */,
 				304654F31F09BC5500C4309F /* Sources */,
 				304654F41F09BC5500C4309F /* Frameworks */,
 				304654F51F09BC5500C4309F /* Resources */,
+				C1EBB8639BB232F4A59DF3AC /* [CP] Embed Pods Frameworks */,
+				65AD7B8523856BCD96308E6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				304655051F09BC5500C4309F /* LaunchScreen.storyboard in Resources */,
+				3046550F1F09E61500C4309F /* GoogleService-Info.plist in Resources */,
 				304655021F09BC5500C4309F /* Assets.xcassets in Resources */,
 				304655001F09BC5500C4309F /* Main.storyboard in Resources */,
 			);
@@ -131,11 +165,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65AD7B8523856BCD96308E6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CakedMobileSwift/Pods-CakedMobileSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D5ECF60213F08370EAE422 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1EBB8639BB232F4A59DF3AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CakedMobileSwift/Pods-CakedMobileSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		304654F31F09BC5500C4309F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3046550D1F09D4F300C4309F /* Models.swift in Sources */,
 				304654FD1F09BC5500C4309F /* ViewController.swift in Sources */,
 				304654FB1F09BC5500C4309F /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +343,7 @@
 		};
 		3046550A1F09BC5500C4309F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FD72E014E813E2BE92B2A9 /* Pods-CakedMobileSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CakedMobileSwift/Info.plist;
@@ -272,6 +356,7 @@
 		};
 		3046550B1F09BC5500C4309F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C974232F5E3B4FD69062F4B /* Pods-CakedMobileSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CakedMobileSwift/Info.plist;
