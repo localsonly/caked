@@ -10,7 +10,7 @@ import UIKit
 
 class CategoryCell:UITableViewCell {
     @IBOutlet weak var categoryImageView: UIImageView!
-    @IBOutlet weak var categoryDescriptionLabel: UILabel!
+    @IBOutlet weak var categoryNameLabel: UILabel!
     
 }
 

@@ -146,8 +146,8 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="cookie1" translatesAutoresizingMaskIntoConstraints="NO" id="H1t-kj-sKA">
                                             <rect key="frame" x="0.0" y="8" width="414" height="408"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tus-0A-I5G">
-                                            <rect key="frame" x="164" y="424" width="87" height="59"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tus-0A-I5G">
+                                            <rect key="frame" x="148" y="424" width="119" height="59"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                             <color key="textColor" red="0.95593979659999995" green="0.98027446559999998" blue="0.98038202519999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
@@ -164,8 +164,8 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.16038164499999999" green="0.1723020375" blue="0.18894511459999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <outlet property="categoryDescriptionLabel" destination="tus-0A-I5G" id="Knl-mX-pRg"/>
                                     <outlet property="categoryImageView" destination="H1t-kj-sKA" id="bSl-L0-zzl"/>
+                                    <outlet property="categoryNameLabel" destination="tus-0A-I5G" id="KJ6-46-gtv"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
