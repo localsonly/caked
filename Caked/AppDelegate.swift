@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Firebase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         UINavigationBar.appearance().barTintColor = UIColor.CustomColor.blackBackground
-        
+        FirebaseApp.configure()
         return true
     }
 
