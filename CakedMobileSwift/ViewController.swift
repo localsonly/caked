@@ -8,9 +8,13 @@
 
 import UIKit
 
+// Square backend info
 let itemsUrl = "https://connect.squareup.com/v1/34T664QSMKC6D/items"
 let personalToken = "sq0atp-KOI6SGfEm63Dj2H7cgWtKg"
 let authValue = "Bearer sq0atp-KOI6SGfEm63Dj2H7cgWtKg" // personal access token here
+
+// Firebase backend
+import Firebase
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -19,12 +23,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var items: [String] = []
     var categories: [String: [String]] = [:]
     
+    var ref:DatabaseReference!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         
         httpGetAllItems()
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

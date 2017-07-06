@@ -14,6 +14,7 @@
 		304655051F09BC5500C4309F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304655031F09BC5500C4309F /* LaunchScreen.storyboard */; };
 		3046550D1F09D4F300C4309F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046550C1F09D4F300C4309F /* Models.swift */; };
 		3046550F1F09E61500C4309F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3046550E1F09E61500C4309F /* GoogleService-Info.plist */; };
+		30A76F0F1F0E0A2800E44B59 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A76F0E1F0E0A2800E44B59 /* Utils.swift */; };
 		8492167F3F0234390A5BDD19 /* Pods_CakedMobileSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4612799B215BA110A421DD57 /* Pods_CakedMobileSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		304655061F09BC5500C4309F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3046550C1F09D4F300C4309F /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		3046550E1F09E61500C4309F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30A76F0E1F0E0A2800E44B59 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		4612799B215BA110A421DD57 /* Pods_CakedMobileSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakedMobileSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C974232F5E3B4FD69062F4B /* Pods-CakedMobileSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakedMobileSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CakedMobileSwift/Pods-CakedMobileSwift.release.xcconfig"; sourceTree = "<group>"; };
 		53FD72E014E813E2BE92B2A9 /* Pods-CakedMobileSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakedMobileSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CakedMobileSwift/Pods-CakedMobileSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				304655031F09BC5500C4309F /* LaunchScreen.storyboard */,
 				304655061F09BC5500C4309F /* Info.plist */,
 				3046550C1F09D4F300C4309F /* Models.swift */,
+				30A76F0E1F0E0A2800E44B59 /* Utils.swift */,
 			);
 			path = CakedMobileSwift;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				3046550D1F09D4F300C4309F /* Models.swift in Sources */,
 				304654FD1F09BC5500C4309F /* ViewController.swift in Sources */,
 				304654FB1F09BC5500C4309F /* AppDelegate.swift in Sources */,
+				30A76F0F1F0E0A2800E44B59 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +390,7 @@
 				3046550B1F09BC5500C4309F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
