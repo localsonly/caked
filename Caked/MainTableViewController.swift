@@ -19,7 +19,7 @@ class MainTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        data = ["cookies", "brownies", "cakes", "cupcakes", "bars"]
+        NetworkUtils.downloadCategories(to: self)
         
         tableView.backgroundColor = UIColor.CustomColor.blackBackground
         tableView.separatorColor = UIColor.clear
@@ -52,8 +52,7 @@ class MainTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! FoodCell
 
         // Configure the cell...
-        cell.foodLabel.text = data[indexPath.row]
-        
+        cell.foodLabel.text = data[indexPath.row] as! String
         
         return cell
     }

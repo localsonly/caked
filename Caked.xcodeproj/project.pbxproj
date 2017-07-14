@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A76F111F0E177E00E44B59 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A76F101F0E177E00E44B59 /* NetworkUtils.swift */; };
+		30A76F131F0E1A3A00E44B59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A76F121F0E1A3A00E44B59 /* GoogleService-Info.plist */; };
 		DDDECA8B1F09D03F00A973D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDECA8A1F09D03F00A973D7 /* AppDelegate.swift */; };
 		DDDECA901F09D03F00A973D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDECA8E1F09D03F00A973D7 /* Main.storyboard */; };
 		DDDECA921F09D03F00A973D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDECA911F09D03F00A973D7 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30A76F101F0E177E00E44B59 /* NetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		30A76F121F0E1A3A00E44B59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9AF8773F9F495E4540D20A3E /* Pods-Caked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caked.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caked/Pods-Caked.release.xcconfig"; sourceTree = "<group>"; };
 		AFDC406AF0BAC208E1699AD9 /* libPods-Caked.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Caked.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF660774DCD0C1A4233CFB0 /* Pods-Caked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caked.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Caked/Pods-Caked.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		DDDECA7E1F09D03F00A973D7 = {
 			isa = PBXGroup;
 			children = (
+				30A76F121F0E1A3A00E44B59 /* GoogleService-Info.plist */,
 				DDDECA891F09D03F00A973D7 /* Caked */,
 				DDDECA881F09D03F00A973D7 /* Products */,
 				06D983A176D5119F300F91FD /* Pods */,
@@ -124,6 +129,7 @@
 		DDDECAA61F0A0A7800A973D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				30A76F101F0E177E00E44B59 /* NetworkUtils.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDECA951F09D03F00A973D7 /* LaunchScreen.storyboard in Resources */,
+				30A76F131F0E1A3A00E44B59 /* GoogleService-Info.plist in Resources */,
 				DDDECA921F09D03F00A973D7 /* Assets.xcassets in Resources */,
 				DDDECA901F09D03F00A973D7 /* Main.storyboard in Resources */,
 			);
@@ -266,6 +273,7 @@
 				DDDECA8B1F09D03F00A973D7 /* AppDelegate.swift in Sources */,
 				DDDECAA51F0A091F00A973D7 /* MainTableViewController.swift in Sources */,
 				DDDECA9F1F09D0D100A973D7 /* ColorPalette.swift in Sources */,
+				30A76F111F0E177E00E44B59 /* NetworkUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +443,7 @@
 				DDDECA9B1F09D03F00A973D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
