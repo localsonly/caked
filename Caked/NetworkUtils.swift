@@ -12,7 +12,7 @@ import Firebase
 
 class NetworkUtils {
     
-    static var ref:DatabaseReference = Databse.databse().reference()
+    static var ref:DatabaseReference = Database.database().reference()
     
     static func downloadCategories(to parent: MainTableViewController) {
         //ref = Database.database().reference()
